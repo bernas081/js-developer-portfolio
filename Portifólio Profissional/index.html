@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Bernardo Sobral</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap">
+
+  <link rel="stylesheet" href="assets/css/global.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/acordeon.css">
+  <link rel="stylesheet" href="assets/css/languages.css">
+  <link rel="stylesheet" href="assets/css/portfolio.css">
+  <link rel="stylesheet" href="assets/css/experience.css">
+  <link rel="stylesheet" href="assets/css/skills.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+</head>
+
+<body>
+  <main class="main">
+    <header class="header">
+      <img src="/assets/img/WhatsApp Image 2025-08-27 at 12.25.35 AM.jpeg" alt="Foto de Bernardo Sobral" class="photo" id="profile.photo">
+
+      <h1 class="title">
+        Olá, <br>eu sou <span id="profile.name">Bernardo Sobral</span>
+      </h1>
+
+      <div class="information">
+        <p class="job" id="profile.job">Desenvolvedor Front-end </p>
+        <p class="location" id="profile.location">Recife - PE</p>
+        <p class="phone">
+          <a href="tel:+5581999999999" id="profile.phone">(81) 9 92359267</a>
+        </p>
+        <p class="email">
+          <a href="be20super@gmail.com" id="profile.email">be20super@gmail.com</a>
+        </p>
+      </div>
+    </header>
+
+    <!-- Skills -->
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Skills</h2>
+      </button>
+
+      <div class="content">
+        <div class="skills">
+          <section class="tools">
+            <h3>Ferramentas:</h3>
+            <ul id="profile.skills.hardSkills">
+              <li><img src="/assets/img/icons/tools/html.png" alt="HTML"></li>
+              <li><img src="/assets/img/icons/tools/css.png" alt="CSS"></li>
+              <li><img src="/assets/img/icons/tools/Unofficial_JavaScript_logo_2.svg (1).png" alt="JavaScript"></li>
+              <li><img src="/assets/img/icons/tools/react.svg" alt="React"></li>
+              <li><img src="/assets/img/icons/tools/angular.png" alt="Angular"></li>
+
+              
+              
+              
+            </ul>
+          </section>
+
+          <section class="personal">
+            <h3>Pessoal:</h3>
+            <ul id="profile.skills.softSkills">
+              <li>Comunicação</li>
+              <li>Trabalho em Equipe</li>
+              <li>Aprendizado Contínuo</li>
+            </ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <!-- Idiomas -->
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Idiomas</h2>
+      </button>
+
+      <div class="content">
+        <ul class="languages" id="profile.languages">
+          <li>Português (Nativo)</li>
+          <li>Inglês (Básico)</li>
+          <li>Espanhol (Básico)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Portfólio -->
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Portfólio</h2>
+      </button>
+
+      <div class="content">
+        <ul class="portfolio" id="profile.portfolio">
+          <li>
+            <h3 class="github">Criando um Jogo de Cartas do Yu-Gi-Oh</h3>
+            <a href="https://github.com/bernas081/Criando-um-Jogo-de-Cartas-do-Yu-Gi-Oh-" target="_blank">Ver projeto</a>
+          </li>
+          <li>
+            <h3 class="github">Construindo uma Pokedex com JavaScript</h3>
+            <a href="https://github.com/bernas081/-Construindo-uma-Pok-dex-com-JavaScript" target="_blank">Ver projeto</a>
+          </li>
+          <li>
+            <h3 class="github">Clonando Página do Youtube com CSS</h3>
+            <a href="https://github.com/bernas081/Clonando-a-P-gina-do-Youtube-com-CSS" target="_blank">Ver projeto</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Experiência -->
+    <section class="acordeon">
+      <button class="trigger" type="button">
+        <h2>Experiência Profissional</h2>
+      </button>
+
+      <div class="content">
+        <ul class="experience" id="profile.professionalExperience">
+          <li>
+            <h3>Estágio em marketing de afiliados </h3>
+            <p class="period">2023 - Atual</p>
+            <p>Monitoramento de logs, análise de vulnerabilidades e aplicação de medidas de segurança em sistemas.</p>
+          </li>
+          <li>
+            <h3>Desenvolvedor Web Front End</h3>
+            <p class="period">2025 - Atual</p>
+            <p>Desenvolvedor Web Front End - Startup Lummi ( trabalho voluntário )</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <p>Feito por Bernardo Sobral De Melo</p>
+    </footer>
+  </main>
+
+  <script src="assets/js/acordeon.js"></script>
+  <script src="assets/js/api.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>

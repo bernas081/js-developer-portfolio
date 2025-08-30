@@ -1,0 +1,71 @@
+{
+  "name": "Bernardo Sobral",
+  "photo": "assets/img/WhatsApp Image 2025-08-27 at 12.25.35 AM.jpeg",
+  "job": "Desenvolvedor Front-end",
+  "location": "Recife - PE",
+  "phone": "(81) 9 92359267",
+  "email": "be20super@gmail.com",
+  "skills": {
+    "hardSkills": [
+      {
+        "name": "HTML",
+        "logo": "assets/img/icons/tools/html.png"
+      },
+      {
+        "name": "CSS",
+        "logo": "assets/img/icons/tools/css.png"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "assets/img/icons/tools/Unofficial_JavaScript_logo_2.svg (1).png"
+      },
+      {
+        "name": "React",
+        "logo": "assets/img/icons/tools/react.svg"
+      },
+      {
+        "name": "Angular",
+        "logo": "assets/img/icons/tools/angular.png"
+      }
+    ],
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em Equipe",
+      "Aprendizado Contínuo"
+    ]
+  },
+  "languages": [
+    "Português (Nativo)",
+    "Inglês (Básico)",
+    "Espanhol (Básico)"
+  ],
+  "portfolio": [
+    {
+      "name": "Criando um Jogo de Cartas do Yu-Gi-Oh",
+      "url": "https://github.com/bernas081/Criando-um-Jogo-de-Cartas-do-Yu-Gi-Oh-",
+      "github": true
+    },
+    {
+      "name": "Construindo uma Pokedex com JavaScript",
+      "url": "https://github.com/bernas081/-Construindo-uma-Pok-dex-com-JavaScript",
+      "github": true
+    },
+    {
+      "name": "Clonando Página do Youtube com CSS",
+      "url": "https://github.com/bernas081/Clonando-a-P-gina-do-Youtube-com-CSS",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Estágio em marketing de afiliados",
+      "period": "2023 - Atual",
+      "description": "Monitoramento de logs, análise de vulnerabilidades e aplicação de medidas de segurança em sistemas."
+    },
+    {
+      "name": "Desenvolvedor Web Front End",
+      "period": "2025 - Atual",
+      "description": "Desenvolvedor Web Front End - Startup Lummi ( trabalho voluntário )"
+    }
+  ]
+}
